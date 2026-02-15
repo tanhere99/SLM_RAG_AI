@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+venv_rag/
+venv_langchain/bin/
+venv_langchain/lib/
+venv_langchain/share/
+venv_langchain/pyvenv.cfg
+.venv/
+env/
+
+# Chroma vector DB (regenerate with ingest script)
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large data (add your PDF next to repo or in a data/ folder)
+Story.pdf
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
